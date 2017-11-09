@@ -1,0 +1,8 @@
+{
+  "name": "lido-api",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Lido API",
+  "author": "Steve Davis <steve@celery.club>",
+  "license": "ISC"
+}

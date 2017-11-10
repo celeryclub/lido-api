@@ -1,5 +1,5 @@
-const express = require('express');
-const router = express.Router();
+const express = require('express')
+const router = express.Router()
 
 const createNote = (name) => {
   return {
@@ -8,8 +8,8 @@ const createNote = (name) => {
     createdAt: Date.now(),
     updatedAt: Date.now(),
     publishedAt: Date.now(),
-  };
-};
+  }
+}
 
 router.get('/', function(req, res, next) {
   res.json({
@@ -19,7 +19,7 @@ router.get('/', function(req, res, next) {
       createNote('Jim\'s note'),
       createNote('Welcome'),
     ]
-  });
-});
+  })
+})
 
-module.exports = router;
+module.exports = router

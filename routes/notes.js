@@ -1,4 +1,5 @@
-const express = require('express')
+import express from 'express'
+
 const router = express.Router()
 
 const createNote = (id, name) => {
@@ -12,7 +13,7 @@ const createNote = (id, name) => {
   }
 }
 
-router.get('/', function(req, res, next) {
+router.get('/', (req, res, next) => {
   res.json({
     notes: [
       createNote(1, 'Hello'),

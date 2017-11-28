@@ -6,7 +6,7 @@
   "license": "ISC",
   "private": true,
   "scripts": {
-    "start": "nodemon ./bin/www --exec babel-node"
+    "start": "nodemon lib/index.js --exec babel-node"
   },
   "dependencies": {
     "body-parser": "^1.18.2",

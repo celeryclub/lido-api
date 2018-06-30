@@ -6,8 +6,8 @@
   "license": "ISC",
   "private": true,
   "scripts": {
-    "start": "nodemon lib/index.js --exec babel-node",
-    "postinstall": "babel lib -d dist",
+    "start": "nodemon src/index.js --exec babel-node",
+    "postinstall": "babel src -d dist",
     "serve": "node dist/index.js"
   },
   "dependencies": {
